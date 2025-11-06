@@ -4,7 +4,10 @@ layout: home
 
 hero:
   name: "奈何苍生苦楚"
-  text: "分享一些日常"
+  image:
+    src: /1.jpg
+    alt: zack
+  text: "不要一直奔跑，远方太远，停下亦是修行"
   tagline: My great project tagline
   actions:
     - theme: brand
