@@ -40,7 +40,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Examples', link: '/markdown-examples' },
+      { text: '搭建步骤', link: '/搭建步骤' },
     ],
 
     search: {
@@ -78,6 +79,12 @@ export default defineConfig({
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }
+        ]
+      },
+      {
+        text: '记录',
+        items: [
+          { text: '搭建步骤', link: '/搭建步骤' },
         ]
       }
     ],
